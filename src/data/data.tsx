@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Nicholas Izosimov Portfolio',
+  description: "",
 };
 
 /**
@@ -102,16 +102,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm a fullstack developer born and raised in Stockholm Sweden. In my free time I enjoy music production which I've done since 2015. When it comes to technology I'm mostly sufficient with C# in the .NET framework. Although still knowledgable in javascript, typescript with react!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Stockholm, Sweden', Icon: MapIcon},
+    {label: 'Date of Birth', text: '2000', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Swedish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Music, Travelling, Running', Icon: SparklesIcon},
+    {label: 'Study', text: 'Graduated Associate 2020', Icon: AcademicCapIcon},
+    {label: 'Employment', text: '<salt/> Stockholm', Icon: OfficeBuildingIcon},
   ],
 };
 
